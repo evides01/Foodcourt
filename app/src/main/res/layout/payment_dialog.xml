@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+
+
+    <EditText
+
+        android:layout_width="match_parent"
+        android:id="@+id/edt_payment"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/mini_margin"
+        android:textSize="@dimen/h5"
+        android:hint="Waiting QR Scan"
+        />
+
+    <TextView
+        android:visibility="gone"
+        android:id="@+id/txt_card1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/h6"
+        android:layout_margin="@dimen/mini_margin"
+        android:text="Card 1 : Amount"/>
+    <TextView
+        android:visibility="gone"
+        android:id="@+id/txt_card2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/h6"
+        android:layout_margin="@dimen/mini_margin"
+        android:text="Card 2 : Amount"/>
+    <TextView
+        android:visibility="gone"
+        android:id="@+id/txt_card3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/h6"
+        android:layout_margin="@dimen/mini_margin"
+        android:text="Card 3 : Amount"/>
+    <TextView
+        android:visibility="gone"
+        android:id="@+id/txt_card4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/h6"
+        android:layout_margin="@dimen/mini_margin"
+        android:text="Card 4 : Amount"/>
+    <TextView
+        android:visibility="gone"
+        android:id="@+id/txt_card5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/h6"
+        android:layout_margin="@dimen/mini_margin"
+        android:text="Card 5 : Amount"/>
+
+    <LinearLayout
+        android:visibility="gone"
+        android:id="@+id/linDialog"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+        <TextView
+            android:background="@color/colorAccent"
+            android:text="Title"
+            android:gravity="center"
+            android:id="@+id/txt_title"
+            android:textSize="@dimen/h4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+        <TextView
+            android:text="Message"
+            android:id="@+id/txt_message"
+            android:gravity="center"
+            android:textSize="@dimen/h5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+
+</LinearLayout>

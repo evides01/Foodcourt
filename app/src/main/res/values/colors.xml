@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+    <color name="colorPrimary">#635625</color>
+
+    <color name="colorPrimaryDark">#372d00</color>
+
+    <color name="colorPrimaryLight">#b6a778</color>
+
+    <color name="colorAccent">#90a4ae</color>
+
+    <color name="TanShadow">#c69f6c</color>
+
+    <color name="Black">#000000</color>
+
+    <color name="Teal">#008080</color>
+
+    <color name="DarkTurquoise">#00CED1</color>
+
+    <color name="LightSeaGreen">#20B2AA</color>
+
+    <color name="ForestGreen">#228B22</color>
+
+    <color name="MediumSeaGreen">#3CB371</color>
+
+    <color name="Turquoise">#40E0D0</color>
+
+    <color name="SteelBlue">#4682B4</color>
+
+    <color name="DarkSlateBlue">#483D8B</color>
+
+    <color name="MediumTurquoise">#48D1CC</color>
+
+    <color name="CadetBlue">#5F9EA0</color>
+
+    <color name="MediumAquaMarine">#66CDAA</color>
+
+    <color name="LightSlateGrey">#778899</color>
+
+    <color name="MediumSlateBlue">#7B68EE</color>
+
+    <color name="Maroon">#800000</color>
+
+    <color name="Olive">#808000</color>
+
+    <color name="DarkSeaGreenLight">#8CCFE2CF</color>
+
+    <color name="DarkSeaGreen">#8FBC8F</color>
+
+    <color name="DarkViolet">#9400D3</color>
+
+    <color name="LightBlue">#ADD8E6</color>
+
+    <color name="FireBrick">#b22222</color>
+
+    <color name="MediumOrchid">#BA55D3</color>
+
+    <color name="RosyBrown">#BC8F8F</color>
+
+    <color name="DarkKhaki">#BDB76B</color>
+
+    <color name="Silver">#c0c0c0</color>
+
+    <color name="MediumVioletRed">#C71585</color>
+
+    <color name="IndianRed">#CD5C5C</color>
+
+    <color name="Peru">#CD853F</color>
+
+    <color name="Tan">#D2B48C</color>
+
+    <color name="LightGrey">#D3D3D3</color>
+
+    <color name="Thistle">#D8BFD8</color>
+
+    <color name="Orchid">#da70d6</color>
+
+    <color name="GoldenRod">#DAA520</color>
+
+    <color name="PaleVioletRed">#DB7093</color>
+
+    <color name="Crimson">#DC143C</color>
+
+    <color name="Gainsboro">#dcdcdc</color>
+
+    <color name="Plum">#8CDDA0DD</color>
+
+    <color name="BurlyWood">#deb887</color>
+
+    <color name="LightCyan">#E0FFFF</color>
+    <color name="LightCyan2">#e1ffff</color>
+    <color name="light_pink">#ffe1f0</color>
+    <color name="Lavender">#E6E6FA</color>
+
+    <color name="DarkSalmon">#E9967A</color>
+
+    <color name="PaleGoldenRod">#eee8aa</color>
+
+    <color name="LightCoral">#F08080</color>
+
+    <color name="Wheat">#F5DEB3</color>
+
+    <color name="WhiteSmoke">#C8F5F5F5</color>
+
+    <color name="GhostWhite">#F8F8FF</color>
+
+    <color name="Salmon">#FA8072</color>
+
+    <color name="AntiqueWhite">#FAEBD7</color>
+
+    <color name="LightGoldenRodYellow">#FAFAD2</color>
+
+    <color name="Fuchsia">#ff00ff</color>
+
+    <color name="OrangeRed">#ff4500</color>
+
+    <color name="LightSalmon">#FFA07A</color>
+
+    <color name="Gold">#FFD700</color>
+
+    <color name="PeachPuff">#FFDAB9</color>
+
+    <color name="Bisque">#ffe4c4</color>
+
+    <color name="MistyRose">#ffe4e1</color>
+
+    <color name="BlanchedAlmond">#FFEBCD</color>
+
+    <color name="Cornsilk">#FFF8DC</color>
+
+    <color name="FloralWhite">#FFFAF0</color>
+
+    <color name="colorLayoutBG1">#C8FFCDD2</color>
+
+    <color name="dark_salmon_1">#ac411d</color>
+    <color name="dark_salmon_2">#d85224</color>
+    <color name="dark_salmon_3">#e1734e</color>
+
+    <color name="orchid1">#8c2489</color>
+    <color name="orchid2">#a0299d</color>
+    <color name="orchid3">#b42eb1</color>
+
+    <color name="blue1">#57b1df</color>
+
+    <color name="blue2">#67b8e2</color>
+
+    <color name="blue3">#9ad0eb</color>
+
+    <color name="green1">#3f8529</color>
+
+    <color name="green2">#52ac35</color>
+    <color name = "white">#FFFFFF</color>
+    <color name="green3">#6ac84c</color>
+
+    <color name="blue_pur_1">#7b6ec0</color>
+    <color name="blue_pur_2">#aca4d7</color>
+    <color name="blue_pur_3">#8b80c8</color>
+
+    <color name="Black_L">#78000000</color>
+
+    <color name="blue">#0000FF</color>
+
+    <color name="violet1">#990099</color>
+
+    <color name="violet2">#ff33ff</color>
+
+    <color name="violet3">#ff99ff</color>
+
+    <color name="WhiteSmokeL">#BAF5F5F5</color>
+
+    <color name="ActiveCaption">#99B4D1</color>
+
+</resources>

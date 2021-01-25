@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+
+    <th.com.samsen.tunyaporn.foodcourt.view.MenuButtonView
+        android:id="@+id/mbtn_1"
+        android:clickable="true"
+        android:layout_margin="1dp"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="60dp"
+        android:focusable="true" />
+    <th.com.samsen.tunyaporn.foodcourt.view.MenuButtonView
+        android:id="@+id/mbtn_2"
+        android:clickable="true"
+        android:layout_margin="1dp"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="60dp"
+        android:focusable="true" />
+    <th.com.samsen.tunyaporn.foodcourt.view.MenuButtonView
+        android:id="@+id/mbtn_3"
+        android:clickable="true"
+        android:layout_margin="1dp"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="60dp"
+        android:focusable="true" />
+</LinearLayout>

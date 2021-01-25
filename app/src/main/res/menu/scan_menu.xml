@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".activity.MainActivity">
+    <item
+        android:id="@+id/action_settings"
+        android:orderInCategory="4"
+        android:icon="@drawable/ic_action_config"
+        android:title="@string/config_title"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/action_day_end"
+        android:orderInCategory="2"
+        android:title="@string/end_day"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/action_change_store"
+        android:orderInCategory="1"
+        android:title="@string/changeStore"
+        app:showAsAction="ifRoom" />
+    <item android:id="@+id/action_refresh"
+        android:icon="@drawable/ic_action_refresh"
+        android:title="@string/refresh"
+        app:showAsAction="ifRoom"
+        android:orderInCategory="3"/>
+
+</menu>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="@dimen/nano_margin"
+    android:background="@color/Black_L"
+    android:orientation="vertical">
+        <TextView
+            android:id="@+id/button_food1"
+            android:layout_width="match_parent"
+            android:textSize="@dimen/h5"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:background="@color/GhostWhite"
+            android:layout_height="@dimen/button_height_1"
+            android:text="" />
+
+        <TextView
+            android:id="@+id/txt_price"
+            android:textColor="@color/Crimson"
+            android:layout_width="match_parent"
+            android:textStyle="bold"
+            android:layout_height="wrap_content"
+            android:background="@color/colorPrimaryLight"
+            android:textSize="@dimen/h3"
+            android:gravity="center"
+            android:text="" />
+</LinearLayout>

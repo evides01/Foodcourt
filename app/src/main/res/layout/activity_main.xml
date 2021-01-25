@@ -1,0 +1,325 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".activity.MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="4"
+        android:orientation="horizontal">
+
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="5"
+            android:orientation="vertical">
+
+            <HorizontalScrollView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <LinearLayout
+                    android:id="@+id/lin_top_category"
+                    android:layout_width="match_parent"
+
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                </LinearLayout>
+
+            </HorizontalScrollView>
+
+            <LinearLayout
+                android:id="@+id/lin_body"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="4"
+                android:orientation="vertical">
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/lin_bottom_button"
+                android:layout_width="match_parent"
+
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/btn_reset"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:onClick="onClick"
+                    android:text="เริ่มใหม่"
+                    android:textSize="@dimen/h5" />
+
+                <Button
+                    android:id="@+id/btn_payment"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+
+                    android:drawableLeft="@drawable/ic_action_pay"
+                    android:onClick="onClick"
+                    android:text="E-Wallet"
+
+                    android:textSize="@dimen/h5" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="3"
+            android:orientation="vertical">
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/super_nano_margin"
+                android:orientation="horizontal">
+
+
+                <TextView
+                    android:layout_width="@dimen/edt_width_2"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="@dimen/mini_padding"
+                    android:paddingTop="@dimen/mini_padding"
+                    android:text="บริษัท :"
+                    android:textSize="@dimen/body1" />
+
+                <TextView
+                    android:id="@+id/txt_company"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="@dimen/mini_padding"
+                    android:paddingTop="@dimen/mini_padding"
+                    android:text="@string/company"
+                    android:textSize="@dimen/body1" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/super_nano_margin"
+                android:orientation="horizontal"
+                android:visibility="gone">
+
+                <TextView
+                    android:layout_width="@dimen/edt_width_2"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="@dimen/mini_padding"
+                    android:paddingTop="@dimen/super_nano_margin"
+                    android:text="สาขา"
+                    android:textSize="@dimen/body1" />
+
+                <TextView
+                    android:id="@+id/txt_branch"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="@dimen/mini_padding"
+                    android:paddingTop="@dimen/super_nano_margin"
+                    android:text="@string/branch"
+                    android:textSize="@dimen/body1" />
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/super_nano_margin"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="@dimen/edt_width_2"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="@dimen/mini_padding"
+                    android:paddingTop="@dimen/super_nano_margin"
+                    android:text="ชื่อร้าน :"
+                    android:textSize="@dimen/body1" />
+
+                <TextView
+                    android:id="@+id/txt_store_name"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="@dimen/mini_padding"
+                    android:paddingTop="@dimen/super_nano_margin"
+                    android:text="@string/store_name"
+                    android:textSize="@dimen/body1" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/super_nano_margin"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="@dimen/edt_width_2"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="@dimen/mini_padding"
+                    android:paddingTop="@dimen/super_nano_margin"
+                    android:text="@string/ip"
+                    android:textSize="@dimen/body1" />
+
+                <TextView
+                    android:id="@+id/txt_ip_no"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="@dimen/mini_padding"
+                    android:paddingTop="@dimen/super_nano_margin"
+                    android:text="@string/ip"
+                    android:textSize="@dimen/body1" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/super_nano_margin"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="@dimen/edt_width_2"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="@dimen/mini_padding"
+                    android:paddingTop="@dimen/super_nano_margin"
+                    android:text="@string/tax_id"
+                    android:textSize="@dimen/body1" />
+
+                <TextView
+                    android:id="@+id/txt_tax_id"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="@dimen/mini_padding"
+                    android:paddingTop="@dimen/super_nano_margin"
+                    android:text="@string/tax_id"
+                    android:textSize="@dimen/body1" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/super_nano_margin"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="@dimen/edt_width_2"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="@dimen/mini_padding"
+                    android:paddingTop="@dimen/super_nano_margin"
+                    android:text="@string/pos_id"
+                    android:textSize="@dimen/body1" />
+
+                <TextView
+                    android:id="@+id/txt_pos_id"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="@dimen/mini_padding"
+                    android:paddingTop="@dimen/super_nano_margin"
+                    android:text="@string/pos_id"
+                    android:textSize="@dimen/body1" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/super_nano_margin"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="@dimen/edt_width_2"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="@dimen/mini_padding"
+                    android:paddingTop="@dimen/super_nano_margin"
+                    android:text="ยอดขายรวม :"
+                    android:textSize="@dimen/body1" />
+
+                <TextView
+                    android:id="@+id/txt_total"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="@dimen/mini_padding"
+                    android:paddingTop="@dimen/super_nano_margin"
+                    android:text="@string/total_now"
+                    android:textSize="@dimen/body1" />
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/mini_padding"
+                android:orientation="horizontal"
+                android:visibility="visible">
+
+                <TextView
+                    android:layout_width="@dimen/edt_width_2"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="@dimen/mini_padding"
+                    android:paddingTop="@dimen/mini_padding"
+                    android:text="@string/total_now"
+                    android:textSize="@dimen/body1"
+                    android:visibility="gone" />
+
+                <TextView
+                    android:id="@+id/txt_total_now"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="@dimen/mini_padding"
+                    android:paddingTop="@dimen/mini_padding"
+                    android:text="@string/total_now"
+                    android:textSize="@dimen/body1"
+                    android:visibility="gone" />
+            </LinearLayout>
+
+            <TextView
+
+                android:id="@+id/txt_display_amt"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/margin"
+                android:layout_marginTop="@dimen/mini_margin"
+
+                android:layout_marginEnd="@dimen/margin"
+                android:background="@color/LightBlue"
+                android:gravity="center"
+                android:text="0000"
+                android:textSize="@dimen/h4" />
+
+
+            <EditText
+                android:id="@+id/edt_barcode"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/mini_margin"
+                android:gravity="center|left"
+                android:hint="สแกนเพื่อจ่ายเงิน"
+                android:textSize="@dimen/h4" />
+
+            <Button
+                android:id="@+id/btn_scan"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="Cash Card"
+                android:visibility="gone" />
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+</LinearLayout>
